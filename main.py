@@ -43,6 +43,10 @@ if __name__ == '__main__':
                 ownerAffiliations: OWNER
                 isFork: false
                 first: 100
+                orderBy: {
+                    field: PUSHED_AT
+                    direction: DESC
+                }
             ) {
                 nodes {
                     name
