@@ -47,6 +47,7 @@ if __name__ == '__main__':
                     field: PUSHED_AT
                     direction: DESC
                 }
+                privacy: PUBLIC
             ) {
                 nodes {
                     name
